@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-    node:12-alpine:
+    node-12-alpine:
       image: ${IMAGE}
       ports:
         - 8080:8080
